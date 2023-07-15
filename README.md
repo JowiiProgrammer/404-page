@@ -67,4 +67,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@JowiiProgrammer](https://{github.com/JowiiProgrammer})
+- GitHub [@JowiiProgrammer](https://github.com/JowiiProgrammer)
