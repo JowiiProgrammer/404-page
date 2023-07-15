@@ -1,14 +1,21 @@
 ---
 import Layout from '../layouts/Layout.astro'
-import '../styles/style.css';
+import Header from '../components/Header.astro'
+import Section404 from '../components/Section404.astro'
+import Footer from '../components/Footer.astro'
+import '../styles/styles.css'
 ---
 
-<Layout title='Welcome to Astro.'>
-	<main>
-		<header>
-			<div class='text-[24px] font-bold uppercase font-insolata'>
-				<h2>404 not found</h2>
-			</div>
-		</header>
+<Layout title='404 Page'>
+
+	<Header />
+
+	<main class='snap-y snap-mandatory relative w-full h-screen overflow-y-auto overflow-x-hidden scroll-smooth'>
+
+		<Section404 />
+
 	</main>
+
+	<Footer />
+
 </Layout>
